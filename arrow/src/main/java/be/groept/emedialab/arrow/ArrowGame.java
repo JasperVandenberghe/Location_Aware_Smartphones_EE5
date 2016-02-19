@@ -68,6 +68,10 @@ public class ArrowGame extends AppCompatActivity {
         }
     };
 
+    protected void hey(){
+        int i = 0;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
