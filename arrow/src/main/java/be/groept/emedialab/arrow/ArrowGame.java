@@ -69,7 +69,7 @@ public class ArrowGame extends AppCompatActivity {
     };
 
     protected void hey(){
-        int i = 0;
+        int i = 1;
     }
 
     @Override
