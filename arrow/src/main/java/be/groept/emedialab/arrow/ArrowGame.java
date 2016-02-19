@@ -166,6 +166,7 @@ public class ArrowGame extends AppCompatActivity {
     @Override
     protected void onPause(){
         super.onPause();
+        if(GlobalResources.getInstance().getPatternDetector() != null)
         GlobalResources.getInstance().getPatternDetector().destroy();
     }
 
