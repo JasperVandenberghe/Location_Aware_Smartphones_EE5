@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:id="@+id/fullscreen_content"
+    tools:context="be.groept.emedialab.animal_farm.InstructionsActivity">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/video"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video"
+        android:layout_centerInParent="true">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/refreshButton"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_audiotrack_white_48dp"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/doneButton"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_forward_white_48dp"
+            android:layout_toEndOf="@+id/refreshButton"
+            android:layout_toRightOf="@+id/refreshButton"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

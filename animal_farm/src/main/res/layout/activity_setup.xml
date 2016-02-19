@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:id="@+id/fullscreen_content"
+    tools:context="be.groept.emedialab.animal_farm.SetupActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageGame"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/animal_farm"
+        android:contentDescription="@string/animalFarmImage"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp">
+
+        <Button
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/createGame"
+            android:text="@string/create_game"
+            android:textColor="@color/colorText"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/joinGame"
+            android:text="@string/join_game"
+            android:textColor="@color/colorText"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/createGame"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

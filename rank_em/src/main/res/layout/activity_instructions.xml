@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/colorPrimaryLight"
+    android:id="@+id/fullscreen_content"
+    tools:context="be.groept.emedialab.rank_em.InstructionsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/instructions"/>
+
+    <Button
+        android:id="@+id/buttonGotIt"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="@string/got_it"
+        android:textColor="@color/colorText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/instructions"/>
+
+
+
+</RelativeLayout>

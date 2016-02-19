@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preference_category_algorithm_options">
+        <CheckBoxPreference
+            android:key="new_algorithm"
+            android:title="@string/preference_debug_new_algorithm_title"
+            android:summary="@string/preference_debug_new_algorithm_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category_drawing_options">
+        <CheckBoxPreference
+            android:key="draw_pattern"
+            android:title="@string/preference_debug_draw_pattern_title"
+            android:summary="@string/preference_debug_draw_pattern_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="track_pattern_centre"
+            android:title="@string/preference_debug_track_centre_title"
+            android:summary="@string/preference_debug_track_centre_summary"
+            android:defaultValue="true"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:dependency="draw_pattern" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category_camera_options">
+        <CheckBoxPreference
+            android:key="backfacing_camera"
+            android:title="@string/preference_debug_backfacing_camera_title"
+            android:summary="@string/preference_debug_backfacing_camera_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

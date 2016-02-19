@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Animal Farm</string>
+
+    <string name="animalFarmImage">Animal_Farm_Image</string>
+    <string name="create_game">New game</string>
+    <string name="join_game">Join game</string>
+    <string name="got_it">Got it!</string>
+    <string name="you_won">YOU WIN</string>
+    <string name="level_complete">Level %d complete!</string>
+    <string name="restart_game">Play again</string>
+    <string name="stop_game">Leave game</string>
+    <string name="gameImage">Image game</string>
+
+    <string name="descriptionBoard">Hanging board</string>
+
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_instructions">InstructionsActivity</string>
+
+    <string name="title_activity_game">GameActivity</string>
+
+    <string name="instructions">Op de boerderij zijn er veel dieren, maar kan jij raden welk geluid
+    bij welk dier hoort? Op één van de GSMs krijg je een foto te zien van een diertje, op de andere GSMs
+    kan je verschillende geluiden horen door te drukken op de luidspreker. Als je denkt het juiste geluid
+    gevonden te hebben, leg dan deze GSM naast de GSM met het diertje.</string>
+</resources>

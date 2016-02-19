@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dierenboerderij</string>
+    <string name="create_game">Nieuw spel</string>
+    <string name="join_game">Speel mee</string>
+    <string name="got_it">Begrepen!</string>
+    <string name="you_won">Je hebt gewonnen!</string>
+    <string name="level_complete">Level %d compleet!</string>
+    <string name="restart_game">Opnieuw spelen</string>
+    <string name="stop_game">Spel verlaten</string>
+
+    <string name="animalFarmImage">Animal_Farm_Image</string>
+    <string name="gameImage">Image game</string>
+    <string name="descriptionBoard">Hanging board</string>
+
+    <string name="instructions">Op de boerderij zijn er veel dieren, maar kan jij raden welk geluid
+    bij welk dier hoort? Op één van de GSMs krijg je een foto te zien van een diertje, op de andere GSMs
+    kan je verschillende geluiden horen door te drukken op de luidspreker. Als je denkt het juiste geluid
+    gevonden te hebben, leg dan deze GSM naast de GSM met het diertje.</string>
+
+</resources>

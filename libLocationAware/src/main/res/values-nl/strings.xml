@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_example">Voorbeeld actie</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_use_as_server">Als server instellen</string>
+    <string name="calibrate">Calibreren</string>
+    <string name="clientFragmentTitle">Kies server</string>
+    <string name="client_fragment">Client Fragment</string>
+    <string name="connect_and_poll">Connecteren en pollen</string>
+    <string name="device_already_connected_to_server">Toestel reeds verbonden met server</string>
+    <string name="device_supports_bt">Toestel ondersteunt Bluetooth</string>
+    <string name="disconnect">Verbinding verbreken</string>
+    <string name="enabling_bluetooth">Bluetooth aanzetten</string>
+    <string name="image_manipulations_bottom">beneden</string>
+    <string name="image_manipulations_left">links</string>
+    <string name="image_manipulations_right">rechts</string>
+    <string name="image_view_description">De verwerkte afbeelding</string>
+    <string name="oops">Oeps</string>
+    <string name="pattern_coordinate_system_image_description">Patroon coordinaat systeem</string>
+    <string name="preference_category_algorithm_options">Algoritme opties</string>
+    <string name="preference_category_camera_options">Camera opties</string>
+    <string name="preference_category_drawing_options">Teken opties</string>
+    <string name="preference_debug_backfacing_camera_summary">Gebruik de achterste camera</string>
+    <string name="preference_debug_backfacing_camera_title">Achterste camera</string>
+    <string name="preference_debug_draw_pattern_summary">Tekent een overlay over het gevonden patroon</string>
+    <string name="preference_debug_draw_pattern_title">Teken het patroon</string>
+    <string name="preference_debug_new_algorithm_summary">Gebruik nieuw algoritme</string>
+    <string name="preference_debug_new_algorithm_title">Nieuwe Algoritme</string>
+    <string name="preference_debug_track_centre_summary">Track het midden van het patroon over meerdere frames</string>
+    <string name="preference_debug_track_centre_title">Track het midden van het patroon</string>
+    <string name="preference_header_camera_summary">Zie wat de camera ziet!</string>
+    <string name="preference_header_camera_title">Camera</string>
+    <string name="preference_header_debug_summary">Debug opties</string>
+    <string name="preference_header_debug_title">Debug</string>
+    <string name="preference_header_pattern_size_summary">Verander de grootte van het geprintte patroon</string>
+    <string name="preference_header_pattern_size_title">Patroon grootte</string>
+    <string name="preference_pattern_title">Patroon grootte in cm</string>
+    <string name="select_target_device">Kies doel toestel</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="title_activity_login">Login Activiteit</string>
+    <string name="title_activity_position">Positie</string>
+    <string name="title_activity_server">Server</string>
+    <string name="title_activity_setup">Setup Activiteit</string>
+    <string name="title_activity_tester">Tester</string>
+    <string name="use_as_client">Gebruiken als client</string>
+    <string name="waiting_for_devices">Wachten op toestellen…</string>
+    <string name="waiting_for_friends">Wachten op vrienden</string>
+    <string name="waiting_for_game_start">Connectie gemaakt met de server\nWachten voor de start!</string>
+    <string name="start">Start</string>
+    <plurals name="numberOfDevicesNeeded">
+        <item quantity="one">Je moet nog %d toestel verbinden</item>
+        <item quantity="other">Je moet nog %d toestellen verbinden</item>
+    </plurals>
+    <plurals name="numberOfDevicesTooMuch">
+        <item quantity="one">Je moet %d toestel verwijderen</item>
+        <item quantity="other">Je moet %d toestellen verwijderen</item>
+    </plurals>
+</resources>

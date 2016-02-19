@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OpenCVTester</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">About</string>
+    <string name="about_title">About</string>
+    <string name="about_message">This application was developed to demonstrate the possibilities
+    of OpenCV and the developed algorithm to detect the pattern.</string>
+    <string name="about_button">OK</string>
+
+    <string name="main_content_camera_feed_description">The feed of the camera</string>
+
+    <string name="navigation_drawer_header_title">OpenCV Tester</string>
+    <string name="navigation_drawer_header_subscript">Version %1$s</string>
+    <string name="navigation_drawer_background">Background</string>
+    <string name="navigation_drawer_overlay">Overlay</string>
+    <string name="navigation_drawer_background_rgb">RGB</string>
+    <string name="navigation_drawer_background_grayscale">Grayscale</string>
+    <string name="navigation_drawer_background_binary">Black and White</string>
+    <string name="navigation_drawer_overlay_pattern">Pattern</string>
+    <string name="navigation_drawer_overlay_square">Big Square Contours</string>
+    <string name="navigation_drawer_overlay_big">Big Contours</string>
+    <string name="navigation_drawer_overlay_contours">Contours</string>
+</resources>

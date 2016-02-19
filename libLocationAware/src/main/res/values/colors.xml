@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryHMT">#009688</color>
+    <color name="colorPrimaryDarkHMT">#00796B</color>
+    <color name="colorAccentHMT">#FFC107</color>
+    <color name="colorPrimaryLightHMT">#B2DFDB</color>
+    <color name="colorTextHMT">#FFFFFF</color>
+    <color name="colorTextPrimaryHMT">#212121</color>
+    <color name="colorTextSecondaryHMT">#727272</color>
+    <color name="colorDividerHMT">#B6B6B6</color>
+
+    <color name="colorPrimaryAFT">#FF5722</color>
+    <color name="colorPrimaryDarkAFT">#E64A19</color>
+    <color name="colorAccentAFT">#607D8B</color>
+    <color name="colorPrimaryLightAFT">#FFCCBC</color>
+    <color name="colorTextAFT">#FFFFFF</color>
+    <color name="colorTextPrimaryAFT">#212121</color>
+    <color name="colorTextSecondaryAFT">#727272</color>
+    <color name="colorDividerAFT">#B6B6B6</color>
+
+    <color name="colorLevelUp">#5D4037</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

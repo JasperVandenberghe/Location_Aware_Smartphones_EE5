@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:id="@+id/fullscreen_content"
+    tools:context="be.groept.emedialab.rank_em.GameActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/balloonView"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameImage"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imageGameDescription" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/boardView" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/board"
+            android:src="@drawable/hanging_board"
+            android:contentDescription="@string/descriptionBoard"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/levelUpText"
+            android:layout_marginTop="220dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#5D4037"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/winningFrame">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/trophy"
+            android:id="@+id/trohpy"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/trohpy">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/restart_game"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_refresh_white_48dp"
+                android:onClick="restartActivity"/>
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/stop_game"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_exit_to_app_white_48dp"
+                android:onClick="leaveGame"
+                android:layout_toEndOf="@+id/restart_game"
+                android:layout_toRightOf="@+id/restart_game"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"/>
+
+           <!-- <Button
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/restart_game"
+                android:text="@string/restart_game"
+                android:textColor="#FFFFFF"
+                android:onClick="restartActivity"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop_game"
+                android:text="@string/stop_game"
+                android:textColor="#FFFFFF"
+                android:onClick="leaveGame"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/restart_game"/> -->
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

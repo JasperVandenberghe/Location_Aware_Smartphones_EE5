@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="HappyManTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryHMT</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkHMT</item>
+        <item name="colorAccent">@color/colorAccentHMT</item>
+        <item name="colorButtonNormal">@color/colorPrimaryHMT</item>
+        <item name="android:textColor">@color/colorPrimaryDarkHMT</item>
+    </style>
+
+    <style name="AnimalFarmTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryAFT</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAFT</item>
+        <item name="colorAccent">@color/colorAccentAFT</item>
+        <item name="colorButtonNormal">@color/colorPrimaryAFT</item>
+        <item name="android:textColor">@color/colorPrimaryDarkAFT</item>
+    </style>
+</resources>

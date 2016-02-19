@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/navigation_drawer_background">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_rgb"
+                    android:icon="@drawable/ic_image_black_24dp"
+                    android:title="@string/navigation_drawer_background_rgb"/>
+                <item
+                    android:id="@+id/nav_grayscale"
+                    android:icon="@drawable/ic_gradient_black_24dp"
+                    android:title="@string/navigation_drawer_background_grayscale" />
+                <item
+                    android:id="@+id/nav_binary"
+                    android:icon="@drawable/ic_filter_b_and_w_black_24dp"
+                    android:title="@string/navigation_drawer_background_binary"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/navigation_drawer_overlay">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_contours_pattern"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/navigation_drawer_overlay_pattern"/>
+                <item
+                    android:id="@+id/nav_contours_square"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/navigation_drawer_overlay_square"/>
+                <item
+                    android:id="@+id/nav_contours_big"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/navigation_drawer_overlay_big"/>
+                <item
+                    android:id="@+id/nav_contours_all"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/navigation_drawer_overlay_contours"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

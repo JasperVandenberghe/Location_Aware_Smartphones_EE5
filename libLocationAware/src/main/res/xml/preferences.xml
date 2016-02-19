@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="127.0.0.1"
+        android:key="server_ip"
+        android:title="IP Address Server"
+        android:inputType="text"
+        />
+
+    <EditTextPreference
+        android:defaultValue="8080"
+        android:key="server_port"
+        android:title="Server Port"
+        android:inputType="number"
+        />
+
+    <be.groept.emedialab.preferences.Preference
+        android:key="PREFS_DEVICE_ID"
+        android:title="Device id"
+        android:summary="%s"
+        android:enabled="false"
+     />
+
+    <EditTextPreference
+        android:key="sample_rate"
+        android:title="Sample rate"
+        android:inputType="number"
+        android:defaultValue="150"
+       />
+
+    <ListPreference
+        android:key="connection_type"
+        android:title="Connection Type"
+        android:dialogTitle="Choose a connection type please"
+        android:entries="@array/connection_types"
+        android:entryValues="@array/connection_settings"
+    />
+
+    <ListPreference
+        android:key="socketTaskType"
+        android:title="Data handling type"
+        android:dialogTitle="Choose a data handling type please"
+        android:entries="@array/socket_task_types"
+        android:entryValues="@array/socket_task_settings"
+     />
+
+    <EditTextPreference
+        android:key="pattern_size"
+        android:title="Width of Pattern (cm)"
+        android:inputType="numberDecimal"
+        android:defaultValue="18"
+        />
+
+    <SwitchPreference
+        android:key="camera"
+        android:title="Backfacing Camera"
+        android:defaultValue="false"/>
+
+    <SwitchPreference
+        android:key="new_algorithm"
+        android:title="New algorithm"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

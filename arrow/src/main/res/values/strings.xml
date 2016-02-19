@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Arrow</string>
+
+    <string name="title_activity_arrow_connection">ArrowConnectionActivity</string>
+
+    <string name="title_activity_arrow_game">ArrowGame</string>
+
+    <string name="create_game">Create game</string>
+    <string name="join_game">Join game</string>
+    <string name="icon_of_the_game">Icon of the game</string>
+
+    <string name="bluetooth_delay">Click the arrow to measure the BT delay.</string>
+    <string name="default_device_position">(0, 0, 0) rot 0</string>
+
+    <string name="action_about">About</string>
+    <string name="about_title">About</string>
+    <string name="about_message">This is a demo application for testing both bluetooth connectivity
+        speeds as well as display the possibilities of the library.<br/>Version: %1$s</string>
+    <string name="about_button">OK</string>
+</resources>

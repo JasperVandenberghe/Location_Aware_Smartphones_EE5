@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Rank \'Em</string>
+
+    <string name="create_game">New game</string>
+    <string name="join_game">Join game</string>
+    <string name="lets_play">Yorenka Games</string>
+
+    <string name="game_activity">This is the game!</string>
+
+    <string name="got_it">Got it!</string>
+
+    <string name="imageGameDescription">Image Game</string>
+
+    <string name="title_activity_win">WinActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="winner">YOU\nWIN</string>
+    <string name="descriptionBoard">Hanging board</string>
+
+    <string name="you_won">YOU WIN</string>
+    <string name="level_complete">Level %d complete!</string>
+
+    <string name="restart_game">Play again</string>
+    <string name="stop_game">Leave game</string>
+</resources>

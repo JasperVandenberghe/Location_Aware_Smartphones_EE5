@@ -1,0 +1,1 @@
+include ':openCVLibrary2410', ':libLocationAware', ':rank_em', ':animal_farm', ':arrow', ':libgdx-core', ':opencvtester'

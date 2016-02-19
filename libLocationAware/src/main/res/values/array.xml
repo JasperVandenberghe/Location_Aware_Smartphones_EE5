@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="connection_types">
+        <item>Bluetooth</item>
+        <item>TCP</item>
+    </string-array>
+
+    <string-array name="connection_settings">
+        <item>"Bluetooth"</item>
+        <item>"TCP"</item>
+    </string-array>
+
+    <string-array name="socket_task_types">
+        <item>Object</item>
+        <item>Primitive Data</item>
+    </string-array>
+
+    <string-array name="socket_task_settings">
+        <item>"OBJECT"</item>
+        <item>"PRIMITIVE_DATA"</item>
+    </string-array>
+</resources>

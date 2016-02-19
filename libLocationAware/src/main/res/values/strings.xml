@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_position">Position</string>
+    <string name="title_activity_server">Server</string>
+    <string name="action_use_as_server">Use as Server</string>
+    <string name="use_as_client">Use as Client</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_tester">Tester</string>
+
+    <string name="image_manipulations_left">left</string>
+    <string name="image_manipulations_right">right</string>
+    <string name="image_manipulations_bottom">bottom</string>
+
+    <string name="pattern_coordinate_system_image_description">Pattern Coordinate System</string>
+
+    <string name="calibrate">Calibrate</string>
+
+    <string name="disconnect">Disconnect</string>
+    <string name="connect_and_poll">Connect and Poll</string>
+    <string name="select_target_device">Select Target Device</string>
+
+    <string name="image_view_description">The processed image</string>
+
+    <!-- Preferences -->
+    <string name="preference_header_pattern_size_title">Pattern Size</string>
+    <string name="preference_header_pattern_size_summary">Change the size of the pattern you have printed</string>
+    <string name="preference_header_camera_title">Camera</string>
+    <string name="preference_header_camera_summary">See what the camera can see!</string>
+    <string name="preference_header_debug_title">Debug</string>
+    <string name="preference_header_debug_summary">Debug options</string>
+
+    <string name="preference_category_algorithm_options">Algorithm Options</string>
+    <string name="preference_category_drawing_options">Drawing Options</string>
+    <string name="preference_category_camera_options">Camera Options</string>
+
+    <string name="preference_pattern_title">Size of the pattern in cm</string>
+
+    <string name="preference_debug_new_algorithm_title">New Algorithm</string>
+    <string name="preference_debug_new_algorithm_summary">Use the new algorithm</string>
+    <string name="preference_debug_draw_pattern_title">Draw the pattern</string>
+    <string name="preference_debug_draw_pattern_summary">Draws an overlay over the found pattern</string>
+    <string name="preference_debug_track_centre_title">Track pattern centre</string>
+    <string name="preference_debug_track_centre_summary">Keep track of the centre of the pattern over multiple frames</string>
+    <string name="preference_debug_backfacing_camera_title">Backfacing camera</string>
+    <string name="preference_debug_backfacing_camera_summary">Use the backfacing camera</string>
+
+    <string name="waiting_for_devices">Waiting for devices…</string>
+    <string name="device_supports_bt">Device supports Bluetooth</string>
+    <string name="enabling_bluetooth">Enabling Bluetooth</string>
+    <plurals name="numberOfDevicesNeeded">
+        <item quantity="one">You still need to connect %d device</item>
+        <item quantity="other">You still need to connect %d devices</item>
+    </plurals>
+    <plurals name="numberOfDevicesTooMuch">
+        <item quantity="one">You need to disconnect %d device</item>
+        <item quantity="other">You need to disconnect %d devices</item>
+    </plurals>
+
+    <string name="client_fragment">Client fragment</string>
+    <string name="clientFragmentTitle">Select server</string>
+    <string name="device_already_connected_to_server">Device already connected to server</string>
+    <string name="oops">Oops</string>
+    <string name="waiting_for_friends">Waiting for friends</string>
+    <string name="waiting_for_game_start">Connection made with server\nWaiting for start of the game</string>
+
+    <string name="start">Start</string>
+
+</resources>
